@@ -42,7 +42,7 @@
 @media only screen and (max-width: 600px) {
 	.design,
 	.design2 {
-		width: 150px;
+		width: 150px !important;
 	}
 	.subsection .container img {
 		width: 250px !important;
