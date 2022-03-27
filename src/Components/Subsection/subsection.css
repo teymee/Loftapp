@@ -1,0 +1,85 @@
+.subsection {
+	margin-top: 5rem;
+	width: 100%;
+	background: #fedbd8;
+	position: relative;
+	
+}
+
+.subsection .container {
+	padding-top: 6rem;
+	padding-bottom: 8rem;
+	width: 62%;
+	margin: auto auto;
+	text-align: center;
+	z-index: 99;
+	position: relative;
+}
+
+.design {
+	margin-top: -50px;
+	z-index: 1;
+	position: absolute;
+}
+
+.design2 {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	padding-bottom: 40px;
+}
+
+.subsection .container p {
+	margin-bottom: 2em;
+	font-size: 20px;
+}
+
+.subsection .container h1 {
+	font-size: 44px;
+}
+
+/* MOBILE DESIGN */
+@media only screen and (max-width: 600px) {
+	.design,
+	.design2 {
+		width: 150px;
+	}
+	.subsection .container img {
+		width: 250px !important;
+	}
+	.design {
+		margin-top: -20px;
+	}
+
+	.subsection .container h1 {
+		font-size: 25px;
+	}
+
+	.subsection .container p {
+		font-size: 14px;
+	}
+}
+
+/* IPAD DESIGN */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	.subsection .container img {
+		width: 400px;
+	}
+
+	.design,
+	.design2 {
+		width: 250px;
+	}
+}
+
+/* WINDOWS REDUCTION */
+@media screen and (max-width: 1204px) {
+	.subsection .container img {
+		width: 400px;
+	}
+
+	.design,
+	.design2 {
+		width: 250px;
+	}
+}

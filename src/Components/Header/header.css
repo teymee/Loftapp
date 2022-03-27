@@ -1,0 +1,107 @@
+.banner {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.banner h1 {
+	font-size: 60px;
+	font-weight: bolder;
+}
+
+.banner p {
+	font-size: 20px;
+	font-weight: 500;
+	margin-top: 20px;
+}
+
+.banner button {
+	color: ghostwhite;
+	margin-top: 20px;
+	padding: 20px 43px;
+	background: #fb4d3d;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	display: flex;
+	align-items: center;
+}
+
+button img {
+	margin-left: 10px;
+}
+
+/* MOBILE DESIGN */
+@media screen and (max-width: 600px) {
+	.banner {
+		display: block;
+		margin-top: 90px;
+	}
+	.banner h1 {
+		font-size: 32px;
+		text-align: center;
+		line-height: 38px;
+	}
+	.banner p {
+		font-size: 14px;
+		text-align: center;
+	}
+	.banner button {
+		width: 100%;
+		justify-content: center;
+		padding: 15px 0;
+	}
+
+	.banner-img {
+		margin: 50px auto;
+		width: 75%;
+	}
+
+	.banner-img img {
+		width: 300px !important;
+	}
+}
+
+/* IPAD DESIGN */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	.banner {
+		width: 500px;
+		width: 100%;
+	}
+
+	.banner h1 {
+		font-size: 30px;
+
+		line-height: 38px;
+	}
+	.banner p {
+		font-size: 14px;
+	}
+
+	.banner-img img {
+		width: 350px;
+	}
+}
+
+/* WINDOWS REDUCTION */
+
+@media screen and (max-width: 1204px) {
+	.banner {
+		width: 500px;
+		width: 100%;
+	}
+
+	.banner h1 {
+		font-size: 30px;
+
+		line-height: 38px;
+	}
+	.banner p {
+		font-size: 14px;
+	}
+
+	.banner-img img {
+		width: 350px;
+	}
+}
